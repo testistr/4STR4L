@@ -1,1 +1,22 @@
-print("test")
+local v1 = Instance.new("ScreenGui")
+local v2 = Instance.new("Frame")
+local v3 = Instance.new("UICorner")
+local v4 = Instance.new("UIStroke")
+
+
+v1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+v1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+v2.Name = "MainFrame"
+v2.Parent = v1
+v2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+v2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+v2.BorderSizePixel = 0
+v2.Position = UDim2.new(0.292452842, 0, 0.23143433, 0)
+v2.Size = UDim2.new(0.413746625, 0, 0.534816086, 0)
+v4.Parent = v2
+v4.Color = Color3.fromRGB(11,11,11)
+v4.Thickness = 5.5
+v4.Transparency = 0.5
+
+v3.Parent = v2
