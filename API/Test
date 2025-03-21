@@ -28,6 +28,14 @@ MainFrame.BorderSizePixel = 0
 MainFrame.Position = UDim2.new(0.156698465, 0, 0.218546525, 0)
 MainFrame.Size = UDim2.new(0.539422274, 0, 0.559990585, 0)
 
+local Strok1 = Instance.new("UIStroke")
+Strok1.Parent = MainFrame
+Strok1.Thickness = 5.5
+Strok1.Transparency = 0.5
+
+local Drag = Instance.new("UIDragDetector")
+Drag.Parent = MainFrame
+
 UICorner.Parent = MainFrame
 
 Tabs.Name = "Tabs"
