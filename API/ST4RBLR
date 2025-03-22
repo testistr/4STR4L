@@ -1,3 +1,5 @@
+print('Version: 20.5)
+
 local CoreGUI = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
