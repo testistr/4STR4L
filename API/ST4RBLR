@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local CoreGUI = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -12,7 +7,6 @@ local v1 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -25,16 +19,8 @@ MainFrame.Parent = CoreGUI
 MainFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 MainFrame.BorderColor3 = Color3.fromRGB(25, 25, 25)
 MainFrame.BorderSizePixel = 0
-MainFrame.Position = UDim2.new(0.156698465, 0, 0.218546525, 0)
-MainFrame.Size = UDim2.new(0.539422274, 0, 0.559990585, 0)
-
-local Strok1 = Instance.new("UIStroke")
-Strok1.Parent = MainFrame
-Strok1.Thickness = 5.5
-Strok1.Transparency = 0.5
-
-local Drag = Instance.new("UIDragDetector")
-Drag.Parent = MainFrame
+MainFrame.Position = UDim2.new(0.22038807, 0, 0.182040632, 0)
+MainFrame.Size = UDim2.new(0.59358871, 0, 0.633619606, 0)
 
 UICorner.Parent = MainFrame
 
@@ -73,8 +59,3 @@ UIAspectRatioConstraint.AspectType = Enum.AspectType.ScaleWithParentSize
 UIAspectRatioConstraint_2.Parent = Tabs
 UIAspectRatioConstraint_2.AspectRatio = 0.289
 UIAspectRatioConstraint_2.AspectType = Enum.AspectType.ScaleWithParentSize
-
-UIAspectRatioConstraint_3.Parent = MainFrame
-UIAspectRatioConstraint_3.AspectRatio = 1.570
-UIAspectRatioConstraint_3.AspectType = Enum.AspectType.ScaleWithParentSize
-UIAspectRatioConstraint_3.DominantAxis = Enum.DominantAxis.Height
